@@ -1,7 +1,8 @@
 .move-area{/*normally use body*/
-  width: 100vw;
+  /* width: 100vw;
   height: 100vh;
-  padding: 10% 45%;
+  padding: 10% 45%; */
+  text-align: center;
 }
 .container {
   width: 100%;
