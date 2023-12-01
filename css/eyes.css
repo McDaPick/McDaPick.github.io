@@ -4,8 +4,9 @@
   padding: 10% 45%; */
   /* text-align: center; */
 }
-.container {
+.eyebox {
   width: 100%;
+  text-align: center;
 }
 .eye {
   position: relative;
