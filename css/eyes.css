@@ -4,10 +4,12 @@
   padding: 10% 45%; */
   /* text-align: center; */
 }
+
 .eyebox {
   width: 100%;
   text-align: center;
 }
+
 .eye {
   position: relative;
   display: inline-block;
@@ -16,6 +18,7 @@
   width: 30px;
   background: #CCC;
 }
+
 .eye:after { /*pupil*/
   position: absolute;
   bottom: 17px;
@@ -25,4 +28,10 @@
   background: #000;
   border-radius: 50%;
   content: " ";
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
 }
