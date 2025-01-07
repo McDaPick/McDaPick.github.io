@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#testtext").text(arrayOfInfo[1][1]);
   });
   $(".blue-square").on("mouseover", function () {
-    $("#testimage").attr("src",arrayOfInfo[2][0]
+    $("#testimage").attr("src",arrayOfInfo[2][0])
     $("#testtext").text(arrayOfInfo[2][1]);
   });
   $(".green-square").on("mouseover", function () {
