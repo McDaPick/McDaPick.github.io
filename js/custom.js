@@ -16,20 +16,20 @@ $(document).ready(function() {
   });
 
   $(".square").on("mouseover", function () {
-    $("#testimage").attr("src","https://ronsrescuedtreasures.com/cdn/shop/products/4114414.jpg");
-    $("#testtext").text("YOOOO ALEX");
+    $("#testimage").attr("src",arrayOfInfo[0][0]);
+    $("#testtext").text(arrayOfInfo[0][1]);
   });
   $(".red-square").on("mouseover", function () {
-    $("#testimage").attr("src","https://i.ebayimg.com/images/g/jBcAAOSwCW1lvTfA/s-l400.jpg");
-    $("#testtext").text("FEET FOR LIFE");
+    $("#testimage").attr("src",arrayOfInfo[1][0]);
+    $("#testtext").text(arrayOfInfo[1][1]);
   });
   $(".blue-square").on("mouseover", function () {
-    $("#testimage").attr("src","https://omniphustoys.com/cdn/shop/products/57_c9071637-9510-43ed-a131-707acef818e1.jpg?v=1677352701&width=416");
-    $("#testtext").text("MATT SMELLS");
+    $("#testimage").attr("src",arrayOfInfo[2][0]
+    $("#testtext").text(arrayOfInfo[2][1]);
   });
   $(".green-square").on("mouseover", function () {
-    $("#testimage").attr("src","https://i.etsystatic.com/30667380/r/il/8ee290/4801539220/il_570xN.4801539220_pmva.jpg");
-    $("#testtext").text("BRETTTTTT SHERMAN");
+    $("#testimage").attr("src",arrayOfInfo[3][0]);
+    $("#testtext").text(arrayOfInfo[3][1]);
   });
 
   var arrayOfInfo = [
@@ -39,7 +39,5 @@ $(document).ready(function() {
     ["https://i.etsystatic.com/30667380/r/il/8ee290/4801539220/il_570xN.4801539220_pmva.jpg", "BRETTTTTT SHERMAN"]
 ];
 
-console.log(arrayOfInfo[0][0]);
-console.log(arrayOfInfo[0][1]);
 
 });
