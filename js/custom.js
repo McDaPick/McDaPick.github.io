@@ -16,7 +16,19 @@ $(document).ready(function() {
   });
 
   $(".square").on("mouseover", function () {
-    $("#testimage").attr("src","https://people.com/thmb/WrYU44v7O6pz8ICeJQIqDnVc3QQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x303:751x305)/grimace-17fd7eb9f45f496ea47bf260e518cb6a.jpg");
+    $("#testimage").attr("src","https://ronsrescuedtreasures.com/cdn/shop/products/4114414.jpg");
     $("#testtext").text("YOOOO ALEX");
+  });
+  $(".red-square").on("mouseover", function () {
+    $("#testimage").attr("src","https://i.ebayimg.com/images/g/jBcAAOSwCW1lvTfA/s-l400.jpg");
+    $("#testtext").text("FEET FOR LIFE");
+  });
+  $(".blue-square").on("mouseover", function () {
+    $("#testimage").attr("src","https://omniphustoys.com/cdn/shop/products/57_c9071637-9510-43ed-a131-707acef818e1.jpg?v=1677352701&width=416");
+    $("#testtext").text("MATT SMELLS");
+  });
+  $(".green-square").on("mouseover", function () {
+    $("#testimage").attr("src","https://i.etsystatic.com/30667380/r/il/8ee290/4801539220/il_570xN.4801539220_pmva.jpg");
+    $("#testtext").text("BRETTTTTT SHERMAN");
   });
 });

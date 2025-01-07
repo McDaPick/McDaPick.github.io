@@ -35,3 +35,21 @@
   width: 50px;
   background-color: #555;
 }
+
+.red-square {
+  height: 50px;
+  width: 50px;
+  background-color: #FF0000;
+}
+
+.blue-square {
+  height: 50px;
+  width: 50px;
+  background-color: #0000FF;
+}
+
+.green-square {
+  height: 50px;
+  width: 50px;
+  background-color: #00FF00;
+}
